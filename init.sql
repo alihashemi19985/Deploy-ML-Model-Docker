@@ -1,0 +1,7 @@
+
+CREATE TABLE predictions (
+    id SERIAL PRIMARY KEY,
+    features INTEGER NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
