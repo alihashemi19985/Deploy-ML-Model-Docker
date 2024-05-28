@@ -10,13 +10,10 @@ This project presents a comprehensive workflow encompassing the training, serial
 6. Create the Docker-compose
 7. Run the docker-compose 
 
-
-
-
-
-
-
-
-
 # Installation 
 
+Install the docker on Ubuntu 
+
+# Deploy 
+
+To run the app first, in the terminal enter 'sudo docker-compose up'. finally, to API request enter '''curl -X POST ip-address:5000/predict -H "Content-Type: application/json" -d '{"features": [10, 10, 100, 19]}' '''
